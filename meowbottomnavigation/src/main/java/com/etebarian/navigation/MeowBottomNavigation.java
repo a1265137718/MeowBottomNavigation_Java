@@ -6,6 +6,9 @@ import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.util.AttributeSet;
 import android.util.LayoutDirection;
 import android.view.Gravity;
@@ -15,9 +18,6 @@ import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
 /**
  * Created by 1HE on 10/23/2018.

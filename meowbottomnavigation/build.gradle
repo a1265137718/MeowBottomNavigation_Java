@@ -1,26 +1,7 @@
-apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
 
-apply plugin: 'kotlin-android'
-
-apply plugin: 'kotlin-android-extensions'
-
-def library_groupId = 'com.etebarian'
-def library_artifactId = 'meow-bottom-navigation'
 def library_versionCode = 1_0_01_00_01
 def library_versionName = '1.0.1'
-
-publish {
-
-    userOrg = 'infinitydesign'
-    repoName = 'meow'
-    groupId = library_groupId
-    artifactId = library_artifactId
-    publishVersion = library_versionName
-    desc = 'Meow Bottom Navigation'
-    website = 'https://github.com/shetmobile/MeowBottomNavigation'
-
-}
 
 android {
     compileSdkVersion compileSdk_version
@@ -44,11 +25,6 @@ android {
 
 }
 
-androidExtensions {
-    experimental = true
-}
-
 dependencies {
-    implementation "androidx.appcompat:appcompat:1.0.2"
-    implementation "androidx.core:core-ktx:1.0.1"
+    implementation "com.android.support:appcompat-v7:27.0.1"
 }

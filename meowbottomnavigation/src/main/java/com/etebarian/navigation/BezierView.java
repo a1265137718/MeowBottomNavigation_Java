@@ -5,10 +5,10 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import androidx.annotation.Nullable;
 
 /**
  * Created by 1HE on 2/25/2019.

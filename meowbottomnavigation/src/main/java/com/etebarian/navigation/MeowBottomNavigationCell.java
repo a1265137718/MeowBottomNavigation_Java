@@ -8,6 +8,8 @@ import android.graphics.Typeface;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.RippleDrawable;
 import android.os.Build;
+import android.support.v4.view.ViewCompat;
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,13 +17,8 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.jetbrains.annotations.Nullable;
 
-import androidx.core.view.ViewCompat;
-import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-import kotlinx.android.extensions.LayoutContainer;
-
-public class MeowBottomNavigationCell extends RelativeLayout implements LayoutContainer {
+public class MeowBottomNavigationCell extends RelativeLayout {
     public static final String EMPTY_VALUE = "empty";
 
     private int defaultIconColor = 0;
@@ -282,11 +279,5 @@ public class MeowBottomNavigationCell extends RelativeLayout implements LayoutCo
             }
         });
         anim.start();
-    }
-
-    @Nullable
-    @Override
-    public View getContainerView() {
-        return containerView;
     }
 }
