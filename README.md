@@ -3,7 +3,7 @@ A simple & curved & material bottom navigation for Android written in kotlin
 
 forked from [https://github.com/shetmobile/MeowBottomNavigation](https://github.com/shetmobile/MeowBottomNavigation)
 
-for appcompat ,pls checkout branch on [android_support](https://github.com/shetmobile/MeowBottomNavigation/tree/android_support)
+for appcompat ,pls checkout branch on [android_support](https://github.com/a1265137718/MeowBottomNavigation_Java/tree/android_support)
 ![](https://github.com/shetmobile/MeowBottomNavigation/raw/master/resources/meow-bottom-navigation-normal.gif)
 
 ## Download
